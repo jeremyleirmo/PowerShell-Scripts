@@ -21,7 +21,7 @@
 
 .NOTES
   Name: Add-DHCPScope
-  Version:        1.2
+  Version:        1.3
   Author:         Jeremy Leirmo
   Creation Date:  9/6/2017
   Purpose/Change: Combine Multiple DHCP scripts and SCCM PXE script
