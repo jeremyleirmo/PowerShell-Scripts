@@ -1,4 +1,10 @@
+#Enviromental Variables
+Get-ChildItem Env:\
+$env:USERNAME
+
+#Set individual Variable
 $regpath - 'HKLM:\Software\Microsoft\Windows'
+#Set Array as variable
 $regpath = @(
     'HKLM:\Software\Microsoft\Windows\CurrentVersion\Uninstall\*'
     'HKLM:\Software\Wow6432Node\Microsoft\Windows\CurrentVersion\Uninstall\*'
